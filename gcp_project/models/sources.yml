@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: dataset_bank
+    tables:
+      - name: raw_data_from_postgresql_and_xml_files

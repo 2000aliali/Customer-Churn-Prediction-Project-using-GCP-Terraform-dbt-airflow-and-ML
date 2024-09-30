@@ -1,0 +1,42 @@
+gcloud projects add-iam-policy-binding seconde-gcp-project --member="serviceAccount:second-gcp-2@seconde-gcp-project.iam.gserviceaccount.com" --role="roles/composer.worker"
+
+
+
+
+gcloud projects add-iam-policy-binding seconde-gcp-project --member="serviceAccount:service-749974941217@cloudcomposer-accounts.iam.gserviceaccount.com" --role="roles/composer.ServiceAgentV2Ext"
+
+
+gsutil -m cp -r gs://bucket_dbdata/dbt_project /home/airflow/gcs/data/
+
+
+gcloud composer environments create  gcpproject-compose --location us-central1  --image-version composer-2.9.3-airflow-2.9.1 --service-account "second-gcp-2@seconde-gcp-project.iam.gserviceaccount.com"
+
+ gcloud composer environments create gcpproject2compose --location=europe-west2 --image-version=composer-2.9.4-airflow-2.9.1 
+ --service-account=second-gcp-2@seconde-gcp-project.iam.gserviceaccount.com 
+ --scheduler-cpu=0.5 --scheduler-memory=2GB --scheduler-storage=1GB --web-server-cpu=0.5 --web-server-memory=2GB --web-server-storage
+ =1GB --worker-cpu=0.5 --worker-memory=2GB --worker-storage=1GB --min-workers=1 --max-workers=3 --network=projects/seconde-gcp-project/global/networks/default --subnetwork=projects/seconde-gcp-project/regions/europe-west2/subnetworks/default --maintenance-window-start="00:00" --maintenance-window-end="04:00" --maintenance-window-recurrence="FREQ=WEEKLY;BYDAY=FR,SA,SU" --env-variables=GOOGLE_COMPOSER_DATA_ENCRYPTION_KEY=google-managed
+
+
+
+
+ gsutil -i second-gcp-2@seconde-gcp-project.iam.gserviceaccount.com cp -r gs://your-bucket-name/data/dbt_project /home/airflow/tmp/dbt_project
+
+
+gcp_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: seconde-gcp-project
+      dataset: dataset_bank
+      threads: 4
+      keyfile:bucket_dbdata/key.json
+      timeout_seconds: 300
+bucket_dbdata/data/gcp_project
+
+
+https://lookerstudio.google.com/u/0/reporting/8342ae48-032f-4100-b749-79e3c95c548f/page/tEnnC/edit
+
+
+https://customer-churn-ali-el-azzaouy.streamlit.app/

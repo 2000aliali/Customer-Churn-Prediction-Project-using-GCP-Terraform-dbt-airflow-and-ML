@@ -1,0 +1,11 @@
+CustomerID,RowNumber,Surname,Gender,Age,Geography,CreditScore,Balance,EstimatedSalary,Tenure,NumOfProducts,HasCrCard,IsActiveMember,Exited
+15634612,1001,Smith,Male,30,Germany,720,35000.00,55000.50,3,2,1,1,0
+15647321,1002,Johnson,Female,45,Spain,640,9000.00,75000.75,5,1,0,1,1
+15619334,1003,Williams,Male,28,France,580,5000.00,40000.25,1,3,1,0,1
+15701354,1004,Brown,Female,35,Italy,750,150000.00,95000.10,7,4,1,1,0
+15738191,1005,Davis,Female,50,Germany,650,30000.00,83000.00,4,2,0,0,1
+15683123,1006,Martinez,Male,29,France,690,20000.00,62000.00,2,2,1,1,0
+15724681,1007,Garcia,Female,37,Spain,710,45000.00,83000.00,6,3,1,1,0
+15765432,1008,Hernandez,Male,40,Germany,620,15000.00,47000.00,5,2,0,1,1
+15874658,1009,Lee,Female,32,Italy,780,120000.00,102000.00,8,4,1,1,0
+15984567,10010,King,Male,54,Spain,500,2500.00,30000.00,1,1,0,0,1

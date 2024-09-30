@@ -1,0 +1,224 @@
+<BankData>
+    <Customers>
+        <Customer id="15634612" RowNumber="1001">
+            <PersonalInfo>
+                <Surname>Smith</Surname>
+                <Gender>Male</Gender>
+                <Age>30</Age>
+                <Geography>Germany</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>720</CreditScore>
+                <Balance currency="EUR">35000.00</Balance>
+                <EstimatedSalary currency="EUR">55000.50</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>3</Tenure>
+                <NumOfProducts>2</NumOfProducts>
+                <HasCrCard>1</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>0</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15647321" RowNumber="1002">
+            <PersonalInfo>
+                <Surname>Johnson</Surname>
+                <Gender>Female</Gender>
+                <Age>45</Age>
+                <Geography>Spain</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>640</CreditScore>
+                <Balance currency="EUR">9000.00</Balance>
+                <EstimatedSalary currency="EUR">75000.75</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>5</Tenure>
+                <NumOfProducts>1</NumOfProducts>
+                <HasCrCard>0</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>1</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15619334" RowNumber="1003">
+            <PersonalInfo>
+                <Surname>Williams</Surname>
+                <Gender>Male</Gender>
+                <Age>28</Age>
+                <Geography>France</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>580</CreditScore>
+                <Balance currency="EUR">5000.00</Balance>
+                <EstimatedSalary currency="EUR">40000.25</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>1</Tenure>
+                <NumOfProducts>3</NumOfProducts>
+                <HasCrCard>1</HasCrCard>
+                <IsActiveMember>0</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>1</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15701354" RowNumber="1004">
+            <PersonalInfo>
+                <Surname>Brown</Surname>
+                <Gender>Female</Gender>
+                <Age>35</Age>
+                <Geography>Italy</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>750</CreditScore>
+                <Balance currency="EUR">150000.00</Balance>
+                <EstimatedSalary currency="EUR">95000.10</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>7</Tenure>
+                <NumOfProducts>4</NumOfProducts>
+                <HasCrCard>1</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>0</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15738191" RowNumber="1005" >
+            <PersonalInfo>
+                <Surname>Davis</Surname>
+                <Gender>Female</Gender>
+                <Age>50</Age>
+                <Geography>Germany</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>650</CreditScore>
+                <Balance currency="EUR">30000.00</Balance>
+                <EstimatedSalary currency="EUR">83000.00</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>4</Tenure>
+                <NumOfProducts>2</NumOfProducts>
+                <HasCrCard>0</HasCrCard>
+                <IsActiveMember>0</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>1</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15683123" RowNumber="1006">
+            <PersonalInfo>
+                <Surname>Martinez</Surname>
+                <Gender>Male</Gender>
+                <Age>29</Age>
+                <Geography>France</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>690</CreditScore>
+                <Balance currency="EUR">20000.00</Balance>
+                <EstimatedSalary currency="EUR">62000.00</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>2</Tenure>
+                <NumOfProducts>2</NumOfProducts>
+                <HasCrCard>1</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>0</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15724681" RowNumber="1007">
+            <PersonalInfo>
+                <Surname>Garcia</Surname>
+                <Gender>Female</Gender>
+                <Age>37</Age>
+                <Geography>Spain</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>710</CreditScore>
+                <Balance currency="EUR">45000.00</Balance>
+                <EstimatedSalary currency="EUR">83000.00</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>6</Tenure>
+                <NumOfProducts>3</NumOfProducts>
+                <HasCrCard>1</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>0</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15765432" RowNumber="1008">
+            <PersonalInfo>
+                <Surname>Hernandez</Surname>
+                <Gender>Male</Gender>
+                <Age>40</Age>
+                <Geography>Germany</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>620</CreditScore>
+                <Balance currency="EUR">15000.00</Balance>
+                <EstimatedSalary currency="EUR">47000.00</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>5</Tenure>
+                <NumOfProducts>2</NumOfProducts>
+                <HasCrCard>0</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>1</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15874658" RowNumber="1009">
+            <PersonalInfo>
+                <Surname>Lee</Surname>
+                <Gender>Female</Gender>
+                <Age>32</Age>
+                <Geography>Italy</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>780</CreditScore>
+                <Balance currency="EUR">120000.00</Balance>
+                <EstimatedSalary currency="EUR">102000.00</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>8</Tenure>
+                <NumOfProducts>4</NumOfProducts>
+                <HasCrCard>1</HasCrCard>
+                <IsActiveMember>1</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>0</Exited>
+            </Status>
+        </Customer>
+        <Customer id="15984567" RowNumber="10010">
+            <PersonalInfo>
+                <Surname>King</Surname>
+                <Gender>Male</Gender>
+                <Age>54</Age>
+                <Geography>Spain</Geography>
+            </PersonalInfo>
+            <Financials>
+                <CreditScore>500</CreditScore>
+                <Balance currency="EUR">2500.00</Balance>
+                <EstimatedSalary currency="EUR">30000.00</EstimatedSalary>
+            </Financials>
+            <AccountDetails>
+                <Tenure>1</Tenure>
+                <NumOfProducts>1</NumOfProducts>
+                <HasCrCard>0</HasCrCard>
+                <IsActiveMember>0</IsActiveMember>
+            </AccountDetails>
+            <Status>
+                <Exited>1</Exited>
+            </Status>
+        </Customer>
+    </Customers>
+</BankData>

@@ -1,0 +1,12 @@
+gcp_project:  # This should match the `profile` name in your dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: seconde-gcp-project  # Your GCP project ID
+      dataset: dataset_bank           # Your BigQuery dataset name
+      threads: 4                      # Number of threads to use
+      keyfile: /home/airflow/gcs/data/key.json  # Path to your service account key in the Composer environment
+      timeout_seconds: 300            # Timeout for queries
+      location: europe-west2          # Ensure the location matches your dataset's region
