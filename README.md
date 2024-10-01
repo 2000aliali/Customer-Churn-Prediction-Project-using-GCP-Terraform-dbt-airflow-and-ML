@@ -8,9 +8,6 @@ The **Customer Churn Prediction Project** is designed to analyze customer data a
 ## System Architecture
 ![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/aaarch.jpg)
 
-### to see our result fell free to visvit this two links: https://lookerstudio.google.com/u/0/reporting/8342ae48-032f-4100-b749-79e3c95c548f/page/tEnnC?s=r3vkVXjrVSo
-### and https://customer-churn-ali-el-azzaouy.streamlit.app/
-
 ### To see our results, feel free to visit these two links:  
 - [Looker Studio Dashboard](https://lookerstudio.google.com/u/0/reporting/8342ae48-032f-4100-b749-79e3c95c548f/page/tEnnC?s=r3vkVXjrVSo)  
 - [Customer Churn Prediction Streamlit App](https://customer-churn-ali-el-azzaouy.streamlit.app/)
