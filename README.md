@@ -4,6 +4,9 @@
 ## Project Overview
 The **Customer Churn Prediction Project** is designed to analyze customer data and predict the likelihood of customer churn using Google Cloud Platform (GCP) tools, Terraform for infrastructure management, dbt for data transformation, and machine learning techniques. The project involves extracting data from XML files, loading it into Google Cloud Storage (GCS), transferring it to BigQuery, transforming the data with dbt, and ultimately building a predictive model using Random Forest. The results are visualized through a dashboard created using Looker, and a user interface is built using Streamlit for model deployment.
 
+
+## System Architecture
+![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/aaarch.jpg)
 ## Tools and Technologies Used
 - **Google Cloud Platform (GCP)**: For cloud storage, data warehousing, and orchestration.
 - **Terraform**: For infrastructure as code, automating the creation of GCP resources such as storage buckets and BigQuery datasets.
@@ -46,6 +49,10 @@ The **Customer Churn Prediction Project** is designed to analyze customer data a
 
 ## Infrastructure Setup with Terraform
 - **Resource Creation**: Terraform scripts are used to automate the creation of GCS buckets, BigQuery datasets, and other required GCP resources. This approach ensures consistency and repeatability in setting up the project environment.
+## result
+our dag in airflow :
+![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/screen%20of%20result/Capture%20d'%C3%A9cran%202024-09-29%20191612.png)
+
 
 ## Conclusion
 The **Customer Churn Prediction Project** effectively leverages modern cloud technologies and machine learning to address business challenges related to customer retention. By employing a systematic approach to data extraction, transformation, and modeling, the project aims to provide valuable insights into customer behavior and enhance decision-making for businesses.
