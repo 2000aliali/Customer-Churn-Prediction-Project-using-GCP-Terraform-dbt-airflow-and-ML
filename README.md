@@ -52,6 +52,16 @@ The **Customer Churn Prediction Project** is designed to analyze customer data a
 ## result
 our dag in airflow :
 ![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/screen%20of%20result/Capture%20d'%C3%A9cran%202024-09-29%20191612.png)
+in th bigquery
+![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/bq.png)
+in the cloud storage
+![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/gs.png)
+
+#### for our dashboards : fell free to visvit this links: https://lookerstudio.google.com/u/0/reporting/8342ae48-032f-4100-b749-79e3c95c548f/page/tEnnC?s=r3vkVXjrVSo
+![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/dash.png)
+
+#### for our interface of Customer Churn Prediction : fell free to visvit this links: https://customer-churn-ali-el-azzaouy.streamlit.app/
+![Screenshot](https://github.com/2000aliali/Customer-Churn-Prediction-Project-using-GCP-Terraform-dbt-airflow-and-ML/blob/main/IMAGES/stream.png)
 
 
 ## Conclusion
