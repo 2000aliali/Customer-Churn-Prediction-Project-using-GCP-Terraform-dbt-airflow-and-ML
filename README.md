@@ -25,9 +25,9 @@ The **Customer Churn Prediction Project** is designed to analyze customer data a
 ## Step-by-Step Implementation
 
 ### Step 1: Data Extraction
-- **Source**: Data is extracted from XML files and a local CSV file containing customer information.
+- **Source**: Data is extracted from XML files and postresql containing customer information.
 - **Local Environment**: Initial data processing is done on a local machine to prepare the data for loading into GCP.
-
+ 
 ### Step 2: Data Loading to GCP
 - **Google Cloud Storage (GCS)**: The cleaned data is loaded into GCS under the bucket named `bucket_dbdata`.
 - **Data Transfer to BigQuery**: The `GCSToBigQueryOperator` is used to transfer data from GCS to a BigQuery dataset named `dataset_bank`. This operator automates the ingestion of data from GCS into BigQuery tables.
