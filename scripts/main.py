@@ -44,28 +44,6 @@ local_cursor = local_conn.cursor()
 
 
 
-# now we shoud first create a table in our database db_name that we creates from cloud sql
-create_table_sql = """
-CREATE TABLE IF NOT EXISTS churn_modelling 
-(
-    rownumber integer NOT NULL,
-    customerid integer,
-    surname character varying(50) COLLATE pg_catalog."default",
-    creditscore integer,
-    geography character varying(50) COLLATE pg_catalog."default",
-    gender character varying(20) COLLATE pg_catalog."default",
-    age integer,
-    tenure integer,
-    balance double precision,
-    numofproducts integer,
-    hascrcard integer,
-    isactivemember integer,
-    estimatedsalary double precision,
-    exited integer,
-    CONSTRAINT churn_modelling_pkey PRIMARY KEY (rownumber)
-);
-"""
-
 
 # ****************** migrate the data of local postgresql *********************** #
 # Path to the local CSV file
